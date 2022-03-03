@@ -123,7 +123,7 @@ export default function BackToTop(props) {
             style={{ color: "inherit", textDecoration: "none" }}
           >
             
-            <img src={logo} alt={"StagBIN"} style={{ width: "200px", marginLeft: "-45px" }} />
+            <img src={logo} alt={"NamelessBIN"} style={{ width: "200px", marginLeft: "-45px" }} />
             {/* <Typography variant="h6">StagBIN</Typography> */}
           </a>
           <FormControl>
