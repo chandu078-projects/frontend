@@ -26,7 +26,7 @@ import MarkdownIcon from "./icons/MarkdownIcon";
 import VSCodeDiffIcon from "./icons/VSCodeDiffIcon";
 
 // Logo
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/namelesslogo.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -122,7 +122,8 @@ export default function BackToTop(props) {
             href="base_url"
             style={{ color: "inherit", textDecoration: "none" }}
           >
-            <img src={logo} alt={"StagBIN"} style={{ width: "100px" }} />
+            
+            <img src={logo} alt={"StagBIN"} style={{ width: "200px", marginLeft: "-45px" }} />
             {/* <Typography variant="h6">StagBIN</Typography> */}
           </a>
           <FormControl>

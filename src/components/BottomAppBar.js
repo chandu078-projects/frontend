@@ -38,6 +38,10 @@ export default function BottomAppBar(props) {
               <h4 style={{ margin: 0 }}>Source</h4>
             </a>
           </div>
+          {/* Add text to right */}
+          <div style={{ position: "absolute", right:"10px" }}>
+            Powered by StagBIN
+          </div>  
         </Toolbar>
       </AppBar>
     </React.Fragment>
