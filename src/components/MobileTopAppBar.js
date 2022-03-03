@@ -100,7 +100,7 @@ export default function BackToTop(props) {
             href="base_url"
             style={{ color: "inherit", textDecoration: "none" }}
           >
-            <img src={logo} alt={"StagBIN"} style={{ width: "175px", marginLeft: "-45px" }} />
+            <img src={logo} alt={"NamelessBIN"} style={{ width: "175px", marginLeft: "-45px" }} />
           </a>
           <FormControl
             style={{
